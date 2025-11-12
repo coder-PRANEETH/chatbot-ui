@@ -1,0 +1,112 @@
+.documentpopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 90%;
+  background-color: rgb(242, 229, 206);
+  box-shadow: 0 4px 8px rgba(50, 49, 49, 0.88);
+  border-radius: 8px;
+  z-index: 1001;
+  padding: 20px;
+ 
+  justify-content: center;
+}
+
+.preview{
+    width: 80%;
+    border: 1px solid #888;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: contain;
+    padding: 10px;
+}
+.title,.size{
+    background-color: transparent;
+    font-size: large;
+}
+
+.hea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.close{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+}
+.close:hover{
+    color: red;
+}
+
+#submit{
+    margin-top: 15px;
+    height: 5%;
+    width: 25%;
+    border-radius: 8px;
+    align-self: center;
+    color: black;
+    background-color: bisque;
+    border: 1px solid #888;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(246, 200, 131);
+    color: aliceblue;
+    transform: scale(1.01);
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 6px;
+  background-color: rgba(197, 172, 129, 0.364);
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.1s ease, transform 0.2s;
+}
+
+.custom-file-upload:hover {
+  background-color: rgba(197, 172, 129, 0.884);
+  transform: scale(1.01,1.04);
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+
+.docucontain{
+    border: 1px solid black;
+    height: 95%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.uploaded{
+    width: 100%;
+    height: 90%;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
