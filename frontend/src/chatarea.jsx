@@ -92,8 +92,8 @@ useEffect(() => {
         {placeholder && (
           <div className="empty">
             <h2>Ask questions from the uploaded files</h2>
-            <div className="logo">
-              <svg xmlns="http://www.w3.org/2000/svg" width="660" height="460" viewBox="0 0 120 120" role="img" aria-labelledby="title2">
+            <div className="loago">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title2">
                 <title id="title2">Egg Farming Brand — Icon</title>
                 <defs>
                   <linearGradient id="yolk2" x1="0" y1="0" x2="0" y2="1">

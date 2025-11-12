@@ -15,15 +15,29 @@
 }
 
 .preview{
-    width: 80%;
+    width: 90%;
     border: 1px solid #888;
     background-color: antiquewhite;
     border-radius: 8px;
     margin-top: 10px;
     object-fit: contain;
-    padding: 10px;
+    padding: 15px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
 }
-.title,.size{
+
+.preview .title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+  overflow: hidden;
+  font-size: large;
+  background-color: transparent;
+}
+
+.size{
     background-color: transparent;
     font-size: large;
 }

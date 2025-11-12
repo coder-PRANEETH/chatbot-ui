@@ -45,7 +45,7 @@ export default function Sidebar({ Setchat, Setdocvisible, docvisible }) {
   return (
     <div className="sidebar">
       <div className="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="80" viewBox="0 0 120 120" role="img" aria-labelledby="title2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title2">
           <title id="title2">Egg Farming Brand — Icon</title>
           <defs>
             <linearGradient id="yolk2" x1="0" y1="0" x2="0" y2="1">

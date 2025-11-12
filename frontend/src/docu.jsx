@@ -54,7 +54,7 @@ export default function Docu()
                   >
                     <span>{file.filename}</span>
                     <div className="meta">
-                      {(file.size / 1024).toFixed(1)} KB —{" "}
+                      
                       {new Date(file.uploadedAt).toLocaleDateString()}
                     </div>
                   </div>

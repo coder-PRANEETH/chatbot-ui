@@ -77,16 +77,21 @@ svg{background-color: transparent;}
 .loago{
     width: 90%;
     height: 70%;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     align-self:center;
     align-items: center;
 }
-.loago h2{
+.empty h2{
     letter-spacing: 2px;
-    font-size:40px;margin-left: 90px;
+    font-size:40px;
+    justify-self: center;
 }
-svg{padding: 0%;}
+ svg{
+    height: 50%;
+    width: 50%;
+    padding: 0%;}
 
 #form:focus{
     background-color: transparent;

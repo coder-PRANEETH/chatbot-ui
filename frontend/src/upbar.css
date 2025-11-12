@@ -1,7 +1,7 @@
 .back{
     height: 35px;
     width: 35px;
-    background-color: rgb(238, 219, 184);
+    background-color: transparent;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -14,15 +14,16 @@
 }
 .pre{
     display: flex;
-    padding: 5px;
+    padding: 5px 0px;
     cursor: pointer;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 40%;
-    width: 10%;
-    background-color:rgb(210,106,51) ;
+    width: 9%;
+    background-color:rgb(241, 205, 121) ;
     border-radius: 8px;
+    transition: all 0.3s ease-in;
 
 }
 
@@ -32,6 +33,13 @@
     font-size: large;
     width: 60%;
     align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pre:hover{
+    color:black;
+    background-color: rgb(229, 112, 112);
+    box-shadow: 0px 0px 20px gray;
 }
 
 span{
@@ -44,6 +52,6 @@ span{
     height: 35px;
     cursor: pointer;
     width: 35px;
-    background-color: rgb(238, 219, 184);
+    background-color: transparent;
     border-radius: 5px;
 }
