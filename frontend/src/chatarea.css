@@ -65,13 +65,17 @@ svg{background-color: transparent;}
     background-color: rgb(242, 229, 206);
     align-self: center;
     justify-self: center;
+    background-color: rgb(108, 100, 100);
+    font-size:x-large ;
+    border-radius: 30px;
     display: flex;
+    max-width: 50%;
     flex-direction: row;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
     border: 1px solid #888;
- 
+    
 }
 
 .loago{
@@ -88,46 +92,68 @@ svg{background-color: transparent;}
     font-size:40px;
     justify-self: center;
 }
- svg{
-    height: 50%;
-    width: 50%;
-    padding: 0%;}
-
-#form:focus{
-    background-color: transparent;
-}
-
-#messagei{
+#form svg{
+    height: 60%;
     width: 90%;
-    height: 90%;
-    border: none;
-    background-color: transparent;
+    margin-right: 55px;
+    stroke: white;
+}
     
     
+    #form:focus{
+        background-color: transparent;
+    }
+    
+
+input::placeholder {
+  color: white;
+}
+    #messagei{
+        width: 80%;
+        height: 90%;
+        color: aliceblue;
+        font-size: large;
+        margin-left: 2%;
+        border: none;
+        background-color: rgb(108, 100, 100);
 }
 #messagei:focus{
     outline: none;
 }
+.answer{
 
-
-
-.question,.answer{
     min-width: 10%;
-    max-width: 30%;
-   
+    max-width: 60%;
+    border-radius: 10px;
+    font-size: x-large;
     position: relative;
     background-color:bisque;
     height: auto;
     width: auto;
     padding: 5px 8px;
-    border-radius: 15px;
-    border: #888 1px solid;
+    
+    color: #35113d;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+
+
+.question{
+    min-width: 10%;
+    max-width: 30%;
+   font-size: x-large;
+    position: relative;
+    background-color:bisque;
+    height: auto;
+    width: auto;
+    padding: 5px 8px;
+    border-radius: 10px;
     color: #35113d;
     margin-bottom: 40px;
     word-wrap: break-word;
    
 
 }
-.question{ justify-self: left;
-margin-left: 5%;}
-.answer{ justify-self: right; margin-right: 5%;}
+.question{ justify-self: right;
+margin-right: 5%;}
+.answer{ justify-self: left; margin-left: 5%;}

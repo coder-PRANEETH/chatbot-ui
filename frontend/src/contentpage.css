@@ -1,7 +1,8 @@
 .mainpage{
     width:85%;
     display: flex;
-    height: 96vh;
+    color: white;
+    height: 100vh;
     flex-direction: column;
     
 }
@@ -24,15 +25,14 @@ width: 100%;}
 .docu{
     height: 100%;
     
-    background-color: rgba(174, 130, 55, 0.19);
+    background-color: rgba(82, 83, 84, 0.19);
     width:35%;
     border: 1px solid rgb(182, 179, 179);
     border-top: none;
     border-left: none;
     flex-direction: column;
     display: flex;
-    color: black;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 25px;
 }

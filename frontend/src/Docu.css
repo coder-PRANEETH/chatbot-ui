@@ -3,7 +3,8 @@
     background-color: transparent;
 }
 .document{
-    height: 90%;
+    height: 80%;
+    padding: 0.5em;
     overflow-y: scroll;
     overflow: auto;
     background-color: transparent;
@@ -36,8 +37,9 @@ height: 25px;}
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 8px 10px 4px 0;
     padding: 18px;
+    background-color: rgb(238, 242, 245);
     transition: all 0.2s ease-in;
     height: fit-content;   
 }
@@ -70,7 +72,7 @@ height: 25px;}
 }
 .pretext span{
     background-color: transparent;
-    font-size: large;
+    font-size: 1.2em;
     width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -97,8 +99,9 @@ iframe{
 .upad{
     border: 1px solid #888;
     border-radius: 8px;
-    padding: 10px 5px;
+    padding: 10px 15px;
     margin-bottom: 30px;
+    background-color: rgb(210, 222, 247);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }

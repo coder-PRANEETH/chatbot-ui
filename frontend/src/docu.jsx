@@ -26,7 +26,8 @@ export default function Docu()
       
     }
   };
-
+var uploadname = "UPLOAD MORE";
+if(filenames ==[] ){uploadname ="upload documents"}
   useEffect(() => {
     const fetchFiles = async () => {
       const files = await getfilenames();
@@ -44,6 +45,9 @@ export default function Docu()
           {!selectedFile ? (
             <div className="docu">
               <h1>Documents</h1>
+              <button onClick={() => Setuplod(true)} className="upad">
+                {uploadname}
+              </button>
               <div className="document">
                 {filenames.map((file, index) => (
                   <div
@@ -61,9 +65,6 @@ export default function Docu()
                 ))}
               </div>
 
-              <button onClick={() => Setuplod(true)} className="upad">
-                UPLOAD MORE
-              </button>
             </div>
           ) : loading ? (
             <div className="docu">

@@ -139,7 +139,7 @@ useEffect(() => {
       <form className="text" id="form" onSubmit={sendMessage}>
         <input
           type="text"
-          placeholder="Enter a message"
+          placeholder="Ask a question . . ."
           id="messagei"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
